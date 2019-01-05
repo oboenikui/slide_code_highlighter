@@ -1,0 +1,36 @@
+@import url("~codemirror/lib/codemirror.css");
+@import url("~codemirror/theme/darcula.css");
+@import url("~highlight.js/styles/idea.css");
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 50%;
+  height: calc(100% - 32px);
+  position: fixed;
+  top: 32px;
+  border-top: 1px solid black;
+}
+
+.editor-container {
+  left: 0%;
+  border-right: 1px solid black;
+}
+
+.code-container {
+  left: 50%;
+}
+
+.code-container>pre {
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+.code-container>pre>code {
+  margin: 0;
+  height: calc(100% - 1em);
+  font-family: 'Source Code Pro'
+}
