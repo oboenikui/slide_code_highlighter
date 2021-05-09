@@ -15,14 +15,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
  *
  */
 
-/*
- * We've enabled UglifyJSPlugin for you! This minifies your app
- * in order to load faster and run less javascript.
- *
- * https://github.com/webpack-contrib/uglifyjs-webpack-plugin
- *
- */
-
 module.exports = {
   module: {
     rules: [
